@@ -1,0 +1,6 @@
+The length of genomes,OptimalSolution,BasicInsert,time2(ms),GreedyScaffoldFilling,time3(ms),LocalSearchScaffoldFilling,time4(ms),SLocalSearchScaffoldFilling(s = 2),time5(ms),SLocalSearchScaffoldFilling(s = 3),time6(ms)
+900,705,580,26,676,136,686,69575,686,24695707,,
+900,698,543,10,660,136,672,104588,672,33343373,,
+900,715,575,10,670,115,677,49950,683,33602207,,
+900,703,569,10,668,113,674,49139,674,21423693,,
+900,696,552,12,650,113,670,87188,,,,

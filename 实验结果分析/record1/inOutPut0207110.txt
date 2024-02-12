@@ -1,0 +1,370 @@
+input:
+A: ##xyzlowwmtuowrrlvqmuulqsvvuptqpwouxyzrsllsomuvlswmmlowlpprvwqrmutnwtabcabcdcefghiefghijkjhfdbkgjhfdbkgeixyz$$
+B: ##zyxaccbaegikihgfejfbgigkbdfhjclwuwrvmqvpqwuzyxrmvsmwprvqmuntzyx$$
+X: l o p v o o u w t t s l r w l w l w s q s m l t p u l r u u m o l o b d f h j h d k e 
+M:## wr prv mu $$ 
+matchedA:0 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 35 36 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 54 55 56 -1 -1 -1 58 59 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 65 66 
+matchedB:0 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 13 14 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 57 58 59 -1 63 64 -1 -1 -1 -1 -1 108 109 
+The length of A: 110
+The length of B: 67
+The length of X: 43
+The number of increasing Duo-preservations of optimal solution: 73
+Output of BasicInsert algorithm: 
+B: ##zyptqpwouxabcdcdbaefghikhihgefejkjfbgigkbdfhjcllowuulowwmtuowrsvwmrlvqrsllsomuvplqwuzyxrmvlsmwprvqmutntzyx$$
+M:## ptqpwoux abc dc db efghi hi ef jkj low uu lowwmtuowr sv wm rlvq rsllsomuv lq ls prv mutn $$ 
+The number of increasing Duo-preservations of BasicInsert algorithm: 47
+RunTime:1ms
+Output of GreedyScaffoldFilling algorithm: 
+B: ##zyxabcdcbaefghikihgefejkjfdbghigkbdfhjclowwmtuowrrlvqmuulqsvvuptqpwouzyxrsllsomuvlswmmlowlpprvwqrmutnwtzyx$$
+M:## abc dc efghi ef jkj fdb ghi lowwmtuowrrlvqmuulqsvvuptqpwou rsllsomuvlswmmlowlpprvwqrmutnwt $$ 
+The number of increasing Duo-preservations of GreedyScaffoldFilling algorithm: 69
+RunTime:1ms
+Output of LocalSearchScaffoldFilling algorithm: 
+B: ##zyxabcdcbaefghijkihgefejhfdbkgigkbdfhjclowwmtuowrrlvqmuulqsvvuptqpwouzyxrsllsomuvlswmmlowlpprvwqrmutnwtzyx$$
+M:## abcdc efghi jk ef jhfdbkg lowwmtuowrrlvqmuulqsvvuptqpwou rsllsomuvlswmmlowlpprvwqrmutnwt $$ 
+The number of increasing Duo-preservations of Local Search Scaffold Filling algorithm: 71
+RunTime:9ms
+Output of SLocalSearchScaffoldFilling algorithm(s=2): 
+B: ##zyxabcdcbaefghijkihgefejhfdbkgigkbdfhjclowwmtuowrrlvqmuulqsvvuptqpwouzyxrsllsomuvlswmmlowlpprvwqrmutnwtzyx$$
+M:## abcdc efghijk ef jhfdbkg lowwmtuowrrlvqmuulqsvvuptqpwou rsllsomuvlswmmlowlpprvwqrmutnwt $$ 
+The number of increasing Duo-preservations of Local Search Scaffold Filling algorithm: 72
+RunTime:302ms
+Output of SLocalSearchScaffoldFilling algorithm(s=3): 
+B: ##zyxabcdcbaefghijkihgfejhfdbkgeigkbdfhjclowwmtuowrrlvqmuulqsvvuptqpwouzyxrsllsomuvlswmmlowlpprvwqrmutnwtzyx$$
+M:## abcdc efghijk jhfdbkgei lowwmtuowrrlvqmuulqsvvuptqpwou rsllsomuvlswmmlowlpprvwqrmutnwt $$ 
+The number of increasing Duo-preservations of Local Search Scaffold Filling algorithm: 73
+RunTime:5693ms
+
+input:
+A: ##xyznmwqupslsqnnsnlolvuqvsptptqvwrxyzomuovuwmqvllouwolnntrrpvqrpwrpoabcabcdcefghiefghijkjhfdbkgjhfdbkgeixyz$$
+B: ##zyxaccbaegikihgfejfbgigkbdfhjcmovlowlrqpwpozyxnwusslovttvrzyx$$
+X: v s u n m u p n l r p w t q l q v n n n o q u q l r p v q u s o m r p w b d f h j h d k e 
+M:## vl pw po lo $$ 
+matchedA:0 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 53 54 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 34 35 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 41 42 -1 43 44 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 63 64 
+matchedB:0 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 47 48 -1 -1 -1 -1 -1 64 65 67 68 -1 -1 -1 -1 -1 -1 -1 -1 19 20 -1 -1 -1 -1 -1 -1 -1 -1 108 109 
+The length of A: 110
+The length of B: 65
+The length of X: 45
+The number of increasing Duo-preservations of optimal solution: 73
+Output of BasicInsert algorithm: 
+B: ##zyrxabcdcdbaefghikhihgefejkjfbgigkbdfhjcomuovuwmloqvlowlrqpwpozyxnnwunmwqupslsqnnsnloqvlvuqvsptpttrrpvrzyx$$
+M:## rx abc dc db efghi hi ef jkj omuovuwm lo qvl pw po nn nmwqupslsqnnsnlo qv lvuqvsptpt trrpv $$ 
+The number of increasing Duo-preservations of BasicInsert algorithm: 51
+RunTime:1ms
+Output of GreedyScaffoldFilling algorithm: 
+B: ##zyxabcdcbaefghikihgefejkjfdbghigkbdfhjcomuovuwmqvllouwolnntrrpvqrpwrpozyxnmwqupslsqnnsnlolvuqvsptptqvwrzyx$$
+M:## abc dc efghi ef jkj fdb ghi omuovuwmqvllouwolnntrrpvqrpwrpo nmwqupslsqnnsnlolvuqvsptptqvwr $$ 
+The number of increasing Duo-preservations of GreedyScaffoldFilling algorithm: 69
+RunTime:1ms
+Output of LocalSearchScaffoldFilling algorithm: 
+B: ##zyxabcdcbaefghijkihgefejhfdbkgigkbdfhjcomuovuwmqvllouwolnntrrpvqrpwrpozyxnmwqupslsqnnsnlolvuqvsptptqvwrzyx$$
+M:## abcdc efghi jk ef jhfdbkg omuovuwmqvllouwolnntrrpvqrpwrpo nmwqupslsqnnsnlolvuqvsptptqvwr $$ 
+The number of increasing Duo-preservations of Local Search Scaffold Filling algorithm: 71
+RunTime:9ms
+Output of SLocalSearchScaffoldFilling algorithm(s=2): 
+B: ##zyxabcdcbaefghijkihgefejhfdbkgigkbdfhjcomuovuwmqvllouwolnntrrpvqrpwrpozyxnmwqupslsqnnsnlolvuqvsptptqvwrzyx$$
+M:## abcdc efghijk ef jhfdbkg omuovuwmqvllouwolnntrrpvqrpwrpo nmwqupslsqnnsnlolvuqvsptptqvwr $$ 
+The number of increasing Duo-preservations of Local Search Scaffold Filling algorithm: 72
+RunTime:148ms
+Output of SLocalSearchScaffoldFilling algorithm(s=3): 
+B: ##zyxabcdcbaefghijkihgfejhfdbkgeigkbdfhjcomuovuwmqvllouwolnntrrpvqrpwrpozyxnmwqupslsqnnsnlolvuqvsptptqvwrzyx$$
+M:## abcdc efghijk jhfdbkgei omuovuwmqvllouwolnntrrpvqrpwrpo nmwqupslsqnnsnlolvuqvsptptqvwr $$ 
+The number of increasing Duo-preservations of Local Search Scaffold Filling algorithm: 73
+RunTime:2346ms
+
+input:
+A: ##xyzwmvqllnqlmpmtpnvlswwllttvnopmoxyzpuwurusmppvmmwotqopluvsopuunnwrabcabcdcefghiefghijkjhfdbkgjhfdbkgeixyz$$
+B: ##zyxaccbaegikihgfejfbgigkbdfhjcpwspmotolvouzyxwvllqmptnlwwltnpmzyx$$
+X: l u o t p u v p p n w v u m n r p m m l s u n m v w u r o q q s b d f h j h d k e 
+M:## ot ll mp wwl pm $$ 
+matchedA:0 1 -1 -1 -1 -1 -1 -1 -1 49 50 -1 -1 -1 52 53 -1 -1 -1 -1 -1 -1 -1 57 58 59 -1 -1 -1 -1 -1 -1 62 63 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 37 38 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 67 68 
+matchedB:0 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 52 53 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 9 10 -1 14 15 -1 -1 -1 23 24 25 -1 -1 32 33 -1 -1 -1 108 109 
+The length of A: 110
+The length of B: 69
+The length of X: 41
+The number of increasing Duo-preservations of optimal solution: 71
+Output of BasicInsert algorithm: 
+B: ##zyoxrabcdcdbaefghikhihgefejkjfbgigkbdfhjcpwuvspmpuwurusmppvmmwotqolmvouuzyxwvqllnqlmptnnltpnvlswwltnopmzyx$$
+M:## ox rabc dc db efghi hi ef jkj uvs puwurusmppvmmwotqo mv uu qllnqlmp nn tpnvlswwl nopm $$ 
+The number of increasing Duo-preservations of BasicInsert algorithm: 48
+RunTime:0ms
+Output of GreedyScaffoldFilling algorithm: 
+B: ##zyoxunnwrabcdcbaefghikihgefejkjfdbghigkbdfhjcpuwurusmppvmmwotqopluvsopuzyxwmvqllnqlmpmtpnvlswwllttvnopmzyx$$
+M:## ox unnwrabc dc efghi ef jkj fdb ghi puwurusmppvmmwotqopluvsopu wmvqllnqlmpmtpnvlswwllttvnopm $$ 
+The number of increasing Duo-preservations of GreedyScaffoldFilling algorithm: 67
+RunTime:2ms
+Output of LocalSearchScaffoldFilling algorithm: 
+B: ##zyoxabcdcbunnwraefghijkihgefejhfdbkgigkbdfhjcpuwurusmppvmmwotqopluvsopuzyxwmvqllnqlmpmtpnvlswwllttvnopmzyx$$
+M:## ox abcdc unnwra efghi jk ef jhfdbkg puwurusmppvmmwotqopluvsopu wmvqllnqlmpmtpnvlswwllttvnopm $$ 
+The number of increasing Duo-preservations of Local Search Scaffold Filling algorithm: 69
+RunTime:11ms
+Output of SLocalSearchScaffoldFilling algorithm(s=2): 
+B: ##zyoxabcdcbunnwraefghijkihgefejhfdbkgigkbdfhjcpuwurusmppvmmwotqopluvsopuzyxwmvqllnqlmpmtpnvlswwllttvnopmzyx$$
+M:## ox abcdc unnwra efghijk ef jhfdbkg puwurusmppvmmwotqopluvsopu wmvqllnqlmpmtpnvlswwllttvnopm $$ 
+The number of increasing Duo-preservations of Local Search Scaffold Filling algorithm: 70
+RunTime:183ms
+Output of SLocalSearchScaffoldFilling algorithm(s=3): 
+B: ##zyoxabcdcbunnwraefghijkihgfejhfdbkgeigkbdfhjcpuwurusmppvmmwotqopluvsopuzyxwmvqllnqlmpmtpnvlswwllttvnopmzyx$$
+M:## ox abcdc unnwra efghijk jhfdbkgei puwurusmppvmmwotqopluvsopu wmvqllnqlmpmtpnvlswwllttvnopm $$ 
+The number of increasing Duo-preservations of Local Search Scaffold Filling algorithm: 71
+RunTime:3815ms
+
+input:
+A: ##xyzlmmspsmqwllspnpswvmtuuppwpsursxyznwqrntlllswsumrosmonvqptpmsqmlwabcabcdcefghiefghijkjhfdbkgjhfdbkgeixyz$$
+B: ##zyxaccbaegikihgfejfbgigkbdfhjcwrtlswursovqtmqmwzyxlpsqlppwmupwpurzyx$$
+X: m s n l s l m m o m s m v n p t l w s s l s p s u n n q p b d f h j h d k e 
+M:## lsw vq qm ps pwp ur $$ 
+matchedA:0 1 -1 -1 -1 -1 -1 -1 -1 53 54 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 62 63 64 -1 65 66 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 35 36 37 -1 -1 -1 -1 -1 -1 -1 -1 -1 42 43 -1 -1 -1 -1 -1 46 47 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 70 71 
+matchedB:0 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 46 47 48 -1 -1 -1 -1 58 59 -1 -1 65 66 -1 -1 -1 -1 -1 9 10 -1 -1 -1 -1 -1 -1 -1 28 29 30 32 33 -1 -1 -1 108 109 
+The length of A: 110
+The length of B: 72
+The length of X: 38
+The number of increasing Duo-preservations of optimal solution: 69
+Output of BasicInsert algorithm: 
+B: ##zysxabcdcdbaefghikhihgefejkjfbgigkbdfhjcmqwrntlllswllspnpswvmtuursosmonvqtmqmnwzyxlmmspsqlppwmsuppwpsurzyx$$
+M:## sx abc dc db efghi hi ef jkj mqw rntlllsw llspnpswvmtuu osmonvq qm nw lmmsps su ppwpsur $$ 
+The number of increasing Duo-preservations of BasicInsert algorithm: 46
+RunTime:0ms
+Output of GreedyScaffoldFilling algorithm: 
+B: ##zysxabcdcbaefghikihgefejkjfdbghigkbdfhjcnwqrntlswsumrosmonvqptpmsqmlwzyxlllmmspsmqwllspnpswvmtuuppwpsurzyx$$
+M:## sx abc dc efghi ef jkj fdb ghi nwqrnt lswsumrosmonvqptpmsqmlw ll lmmspsmqwllspnpswvmtuuppwpsur $$ 
+The number of increasing Duo-preservations of GreedyScaffoldFilling algorithm: 63
+RunTime:1ms
+Output of LocalSearchScaffoldFilling algorithm: 
+B: ##zysxabcdcbaefghijkihgefejhfdbkgigkbdfhjcnwqrntlswsumrosmonvqptpmsqmlwzyxlllmmspsmqwllspnpswvmtuuppwpsurzyx$$
+M:## sx abcdc efghi jk ef jhfdbkg nwqrnt lswsumrosmonvqptpmsqmlw ll lmmspsmqwllspnpswvmtuuppwpsur $$ 
+The number of increasing Duo-preservations of Local Search Scaffold Filling algorithm: 65
+RunTime:14ms
+Output of SLocalSearchScaffoldFilling algorithm(s=2): 
+B: ##zysxabcdcbaefghijkihgefejhfdbkgigkbdfhjcnwqrntlswsumrosmonvqptpmsqmlwzyxlllmmspsmqwllspnpswvmtuuppwpsurzyx$$
+M:## sx abcdc efghijk ef jhfdbkg nwqrnt lswsumrosmonvqptpmsqmlw ll lmmspsmqwllspnpswvmtuuppwpsur $$ 
+The number of increasing Duo-preservations of Local Search Scaffold Filling algorithm: 66
+RunTime:233ms
+Output of SLocalSearchScaffoldFilling algorithm(s=3): 
+B: ##zysxabcdcbaefghijkihgfejhfdbkgeigkbdfhjcnwqrntlswsumrosmonvqptpmsqmlwzyxlllmmspsmqwllspnpswvmtuuppwpsurzyx$$
+M:## sx abcdc efghijk jhfdbkgei nwqrnt lswsumrosmonvqptpmsqmlw ll lmmspsmqwllspnpswvmtuuppwpsur $$ 
+The number of increasing Duo-preservations of Local Search Scaffold Filling algorithm: 67
+RunTime:4863ms
+
+input:
+A: ##xyzoutupqplqpwqusqvuuprlunrsmnmstxyzlpsqpqtnqlqtolltquvvvwvtrnqvmupabcabcdcefghiefghijkjhfdbkgjhfdbkgeixyz$$
+B: ##zyxaccbaegikihgfejfbgigkbdfhjcotppuqnsnstzyxlsptqqoquvwtvzyx$$
+X: n m q v u q r r s p l t u p q l u n v m q v t p v u p r q w u q l l l m u b d f h j h d k e 
+M:## st quv $$ 
+matchedA:0 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 41 42 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 53 54 55 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 62 63 
+matchedB:0 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 33 34 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 54 55 56 -1 -1 -1 -1 -1 -1 108 109 
+The length of A: 110
+The length of B: 64
+The length of X: 46
+The number of increasing Duo-preservations of optimal solution: 74
+Output of BasicInsert algorithm: 
+B: ##zyxabcdcdbaefghikhihgefejkjfbgigkbdfhjcovtqplpuqtntupqplqpwqusrnqvuuprlunrsmnmstzyxllsmuptqlqqoquvvvwtvzyx$$
+M:## abc dc db efghi hi ef jkj vt qp lp qtn tupqplqpwqus rn qvuuprlunrsmnmst ll mup qlq quvvvw $$ 
+The number of increasing Duo-preservations of BasicInsert algorithm: 51
+RunTime:1ms
+Output of GreedyScaffoldFilling algorithm: 
+B: ##zyxrnqvmupabcdcbaefghikihgefejkjfdbghigkbdfhjcoutupqplqpwqusqvuuprlunrsmnmstzyxlpsqpqtnqlqtolltquvwvtvvzyx$$
+M:## rnqvmupabc dc efghi ef jkj fdb ghi outupqplqpwqusqvuuprlunrsmnmst lpsqpqtnqlqtolltquv wvt vv $$ 
+The number of increasing Duo-preservations of GreedyScaffoldFilling algorithm: 68
+RunTime:3ms
+Output of LocalSearchScaffoldFilling algorithm: 
+B: ##zyxabcdcbrnqvmupaefghijkihgefejhfdbkgigkbdfhjcoutupqplqpwqusqvuuprlunrsmnmstzyxlpsqpqtnqlqtolltquvwvtvvzyx$$
+M:## abcdc rnqvmupa efghi jk ef jhfdbkg outupqplqpwqusqvuuprlunrsmnmst lpsqpqtnqlqtolltquv wvt vv $$ 
+The number of increasing Duo-preservations of Local Search Scaffold Filling algorithm: 70
+RunTime:8ms
+Output of SLocalSearchScaffoldFilling algorithm(s=2): 
+B: ##zyxabcdcbrnqvmupaefghijkihgefejhfdbkgigkbdfhjcoutupqplqpwqusqvuuprlunrsmnmstzyxlpsqpqtnqlqtolltquvwvtvvzyx$$
+M:## abcdc rnqvmupa efghijk ef jhfdbkg outupqplqpwqusqvuuprlunrsmnmst lpsqpqtnqlqtolltquv wvt vv $$ 
+The number of increasing Duo-preservations of Local Search Scaffold Filling algorithm: 71
+RunTime:160ms
+Output of SLocalSearchScaffoldFilling algorithm(s=3): 
+B: ##zyxabcdcbrnqvmupaefghijkihgfejhfdbkgeigkbdfhjcoutupqplqpwqusqvuuprlunrsmnmstzyxlpsqpqtnqlqtolltquvwvtvvzyx$$
+M:## abcdc rnqvmupa efghijk jhfdbkgei outupqplqpwqusqvuuprlunrsmnmst lpsqpqtnqlqtolltquv wvt vv $$ 
+The number of increasing Duo-preservations of Local Search Scaffold Filling algorithm: 72
+RunTime:3441ms
+
+input:
+A: ##xyzmrnmwwpvpuqqprqvsmtmwsrmvlnlloxyzlmnorwmppmmmpvwoqpunnwnwusvmlroabcabcdcefghiefghijkjhfdbkgjhfdbkgeixyz$$
+B: ##zyxaccbaegikihgfejfbgigkbdfhjclrpopnmlozyxrvurvmslzyx$$
+X: m p n v m m n q u m p w m p w m q w w v s n p r v q w w m n o o w r l q m l t m s n u p b d f h j h d k e 
+M:## ml $$ 
+matchedA:0 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 38 39 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 55 56 
+matchedB:0 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 65 66 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 108 109 
+The length of A: 110
+The length of B: 57
+The length of X: 53
+The number of increasing Duo-preservations of optimal solution: 76
+Output of BasicInsert algorithm: 
+B: ##zynlloxabcdcdbaefghikhihgefejkjfbgigkbdfhjcmvlmrnmwwpvpuqqprqvsmtmwsrqpwopnnmlozyxmnorvurvwmppmmmwnwuslzyx$$
+M:## nllox abc dc db efghi hi ef jkj mvl mrnmwwpvpuqqprqvsmtmwsr qp wo nn ml mnor wmppmmm wnwus $$ 
+The number of increasing Duo-preservations of BasicInsert algorithm: 56
+RunTime:0ms
+Output of GreedyScaffoldFilling algorithm: 
+B: ##zynlloxabcdcbaefghikihgefejkjfdbghigkbdfhjclmnorwmppmmmpvwoqpunsvmlrozyxrmvnwnwumrnmwwpvpuqqprqvsmtmwslzyx$$
+M:## nllox abc dc efghi ef jkj fdb ghi lmnorwmppmmmpvwoqpun svmlro rmv nwnwu mrnmwwpvpuqqprqvsmtmws $$ 
+The number of increasing Duo-preservations of GreedyScaffoldFilling algorithm: 68
+RunTime:1ms
+Output of LocalSearchScaffoldFilling algorithm: 
+B: ##zynlloxabcdcbaefghijkihgefejhfdbkgigkbdfhjclmnorwmppmmmpvwoqpunsvmlrozyxrmvnwnwumrnmwwpvpuqqprqvsmtmwslzyx$$
+M:## nllox abcdc efghi jk ef jhfdbkg lmnorwmppmmmpvwoqpun svmlro rmv nwnwu mrnmwwpvpuqqprqvsmtmws $$ 
+The number of increasing Duo-preservations of Local Search Scaffold Filling algorithm: 70
+RunTime:5ms
+Output of SLocalSearchScaffoldFilling algorithm(s=2): 
+B: ##zynlloxabcdcbaefghijkihgefejhfdbkgigkbdfhjclmnorwmppmmmpvwoqpunsvmlrozyxrmvnwnwumrnmwwpvpuqqprqvsmtmwslzyx$$
+M:## nllox abcdc efghijk ef jhfdbkg lmnorwmppmmmpvwoqpun svmlro rmv nwnwu mrnmwwpvpuqqprqvsmtmws $$ 
+The number of increasing Duo-preservations of Local Search Scaffold Filling algorithm: 71
+RunTime:54ms
+Output of SLocalSearchScaffoldFilling algorithm(s=3): 
+B: ##zynlloxabcdcbaefghijkihgfejhfdbkgeigkbdfhjclmnorwmppmmmpvwoqpunsvmlrozyxrmvnwnwumrnmwwpvpuqqprqvsmtmwslzyx$$
+M:## nllox abcdc efghijk jhfdbkgei lmnorwmppmmmpvwoqpun svmlro rmv nwnwu mrnmwwpvpuqqprqvsmtmws $$ 
+The number of increasing Duo-preservations of Local Search Scaffold Filling algorithm: 72
+RunTime:689ms
+
+input:
+A: ##xyzlnwswwrmltsvvmspwtrsvwrmpqwsusxyzotvulpvwrwvuovqrlvlpvmmwtrruwplabcabcdcefghiefghijkjhfdbkgjhfdbkgeixyz$$
+B: ##zyxaccbaegikihgfejfbgigkbdfhjclwwwmlsswuszyxovlvrvovrllpmmtwlzyx$$
+X: s q m w t u u r r w r p v s w n r q w w v v p t p u v t v m s p r b d f h j h d k e 
+M:## ww ml us ov rl lp mm $$ 
+matchedA:0 1 -1 -1 -1 -1 -1 -1 -1 34 35 -1 36 37 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 41 42 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 52 53 -1 54 55 -1 56 57 -1 58 59 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 66 67 
+matchedB:0 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 9 10 12 13 -1 -1 -1 33 34 -1 -1 -1 -1 -1 -1 -1 -1 -1 50 51 53 54 56 57 59 60 -1 -1 -1 -1 -1 -1 108 109 
+The length of A: 110
+The length of B: 68
+The length of X: 42
+The number of increasing Duo-preservations of optimal solution: 70
+Output of BasicInsert algorithm: 
+B: ##zyxabcdcdbaefghikhihgefejkjfbgigkbdfhjcvulnwswwrmlvvmspwtrstsvwrmpqwsuszyxovplvwtrrpvwrwvuovqrllpmmtuwlzyx$$
+M:## abc dc db efghi hi ef jkj vul nwswwrml vvmspwtrs ts vwrmpqwsus pl wtrr pvwrwvuovqrl lp mm uw $$ 
+The number of increasing Duo-preservations of BasicInsert algorithm: 50
+RunTime:0ms
+Output of GreedyScaffoldFilling algorithm: 
+B: ##zyxabcdcbaefghikihgefejkjfdbghigkbdfhjclnwswwrmltsvvmspwmpqwsuszyxotvultrsvwrpvwrwvuovqrlvlpvmmwtrruwplzyx$$
+M:## abc dc efghi ef jkj fdb ghi lnwswwrmltsvvmspw mpqwsus otvul trsvwr pvwrwvuovqrlvlpvmmwtrruwpl $$ 
+The number of increasing Duo-preservations of GreedyScaffoldFilling algorithm: 63
+RunTime:1ms
+Output of LocalSearchScaffoldFilling algorithm: 
+B: ##zyxabcdcbaefghijkihgefejhfdbkgigkbdfhjclnwswwrmltsvvmspwtrsvwrmpqwsuszyxotvulpvwrwvuovqrlvlpvmmwtrruwplzyx$$
+M:## abcdc efghi jk ef jhfdbkg lnwswwrmltsvvmspwtrsvwrmpqwsus otvulpvwrwvuovqrlvlpvmmwtrruwpl $$ 
+The number of increasing Duo-preservations of Local Search Scaffold Filling algorithm: 68
+RunTime:14ms
+Output of SLocalSearchScaffoldFilling algorithm(s=2): 
+B: ##zyxabcdcbaefghijkihgefejhfdbkgigkbdfhjclnwswwrmltsvvmspwtrsvwrmpqwsuszyxotvulpvwrwvuovqrlvlpvmmwtrruwplzyx$$
+M:## abcdc efghijk ef jhfdbkg lnwswwrmltsvvmspwtrsvwrmpqwsus otvulpvwrwvuovqrlvlpvmmwtrruwpl $$ 
+The number of increasing Duo-preservations of Local Search Scaffold Filling algorithm: 69
+RunTime:218ms
+Output of SLocalSearchScaffoldFilling algorithm(s=3): 
+B: ##zyxabcdcbaefghijkihgfejhfdbkgeigkbdfhjclnwswwrmltsvvmspwtrsvwrmpqwsuszyxotvulpvwrwvuovqrlvlpvmmwtrruwplzyx$$
+M:## abcdc efghijk jhfdbkgei lnwswwrmltsvvmspwtrsvwrmpqwsus otvulpvwrwvuovqrlvlpvmmwtrruwpl $$ 
+The number of increasing Duo-preservations of Local Search Scaffold Filling algorithm: 70
+RunTime:4636ms
+
+input:
+A: ##xyzorvvronqsplotvqorrqortstnlmmqpxyzvnqlqnprmuoqmqmtwotstmornstuprnabcabcdcefghiefghijkjhfdbkgjhfdbkgeixyz$$
+B: ##zyxaccbaegikihgfejfbgigkbdfhjcvpmoqqtottopnzyxorvoqpovorolmqzyx$$
+X: m m n s r m r m t u t p n l q q q s w r v t n t n s r r q r u s n l b d f h j h d k e 
+M:## oq ot orv or mq $$ 
+matchedA:0 1 -1 -1 -1 48 49 50 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 56 57 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 60 61 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 35 36 -1 -1 -1 -1 -1 39 40 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 65 66 
+matchedB:0 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 48 49 -1 -1 55 56 -1 -1 -1 -1 -1 -1 -1 5 6 7 -1 -1 -1 -1 -1 20 21 -1 -1 32 33 -1 -1 -1 108 109 
+The length of A: 110
+The length of B: 67
+The length of X: 43
+The number of increasing Duo-preservations of optimal solution: 71
+Output of BasicInsert algorithm: 
+B: ##zyxabcdcdbaefghikhihgefejkjfbgigkbdfhjcvnpmrmuoqnqstmqmtwotrnstnqsplouprnzyxorvrolqprqovtvqorortstnlmmqzyx$$
+M:## abc dc db efghi hi ef jkj np rmuoq nq st mqmtwot rnst nqsplo uprn orv ro lq rqo tvqor rtstnlmmq $$ 
+The number of increasing Duo-preservations of BasicInsert algorithm: 48
+RunTime:0ms
+Output of GreedyScaffoldFilling algorithm: 
+B: ##zypxabcdcbaefghikihgefejkjfdbghigkbdfhjcvnqlqnprmuoqmqmtwotstmornstuprnzyxorvvronqsplotvqorrqortstnlmmqzyx$$
+M:## px abc dc efghi ef jkj fdb ghi vnqlqnprmuoqmqmtwotstmornstuprn orvvronqsplotvqorrqortstnlmmq $$ 
+The number of increasing Duo-preservations of GreedyScaffoldFilling algorithm: 67
+RunTime:3ms
+Output of LocalSearchScaffoldFilling algorithm: 
+B: ##zypxabcdcbaefghijkihgefejhfdbkgigkbdfhjcvnqlqnprmuoqmqmtwotstmornstuprnzyxorvvronqsplotvqorrqortstnlmmqzyx$$
+M:## px abcdc efghi jk ef jhfdbkg vnqlqnprmuoqmqmtwotstmornstuprn orvvronqsplotvqorrqortstnlmmq $$ 
+The number of increasing Duo-preservations of Local Search Scaffold Filling algorithm: 69
+RunTime:7ms
+Output of SLocalSearchScaffoldFilling algorithm(s=2): 
+B: ##zypxabcdcbaefghijkihgefejhfdbkgigkbdfhjcvnqlqnprmuoqmqmtwotstmornstuprnzyxorvvronqsplotvqorrqortstnlmmqzyx$$
+M:## px abcdc efghijk ef jhfdbkg vnqlqnprmuoqmqmtwotstmornstuprn orvvronqsplotvqorrqortstnlmmq $$ 
+The number of increasing Duo-preservations of Local Search Scaffold Filling algorithm: 70
+RunTime:118ms
+Output of SLocalSearchScaffoldFilling algorithm(s=3): 
+B: ##zypxabcdcbaefghijkihgfejhfdbkgeigkbdfhjcvnqlqnprmuoqmqmtwotstmornstuprnzyxorvvronqsplotvqorrqortstnlmmqzyx$$
+M:## px abcdc efghijk jhfdbkgei vnqlqnprmuoqmqmtwotstmornstuprn orvvronqsplotvqorrqortstnlmmq $$ 
+The number of increasing Duo-preservations of Local Search Scaffold Filling algorithm: 71
+RunTime:2217ms
+
+input:
+A: ##xyzsppspwmqwvssoqwpvutlqunulrmwtwxyzwmswntmlqnutmtlrwlowprouswlwwvsabcabcdcefghiefghijkjhfdbkgjhfdbkgeixyz$$
+B: ##zyxaccbaegikihgfejfbgigkbdfhjcspspmsoqpulqnlmtwzyxmsnmumowruwwwszyx$$
+X: v w l u w r w s n t u t s w w v p r o l w t t q p w l l q v b d f h j h d k e 
+M:## sp sp soq lq tw ms ow ww $$ 
+matchedA:0 1 -1 -1 -1 32 33 -1 34 35 -1 -1 -1 -1 -1 -1 37 38 39 -1 -1 -1 -1 -1 42 43 -1 -1 -1 -1 -1 -1 -1 47 48 -1 -1 -1 -1 52 53 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 58 59 -1 -1 -1 -1 -1 -1 -1 63 64 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 69 70 
+matchedB:0 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 5 6 8 9 -1 16 17 18 -1 -1 24 25 -1 -1 -1 33 34 -1 -1 -1 39 40 -1 -1 -1 -1 56 57 -1 -1 -1 65 66 -1 -1 -1 -1 108 109 
+The length of A: 110
+The length of B: 71
+The length of X: 39
+The number of increasing Duo-preservations of optimal solution: 68
+Output of BasicInsert algorithm: 
+B: ##zyxabcdcdbaefghikhihgefejkjfbgigkbdfhjcsppspwmqwvssoqpouwpvutlqqnlnulrmwtwzyxwmsntmutmtlrwlowruwswlwwvszyx$$
+M:## abc dc db efghi hi ef jkj sppspwmqwvssoq ou wpvutlq qn nulrmwtw wms ntm utmtlrwlow swlwwvs $$ 
+The number of increasing Duo-preservations of BasicInsert algorithm: 50
+RunTime:0ms
+Output of GreedyScaffoldFilling algorithm: 
+B: ##zyxabcdcbaefghikihgefejkjfdbghigkbdfhjcsppspwmqwvssoqwpvutlqunulrmwtwzyxwmswntmlqnutmtlrwlowprouswlwwvszyx$$
+M:## abc dc efghi ef jkj fdb ghi sppspwmqwvssoqwpvutlqunulrmwtw wmswntmlqnutmtlrwlowprouswlwwvs $$ 
+The number of increasing Duo-preservations of GreedyScaffoldFilling algorithm: 64
+RunTime:2ms
+Output of LocalSearchScaffoldFilling algorithm: 
+B: ##zyxabcdcbaefghijkihgefejhfdbkgigkbdfhjcsppspwmqwvssoqwpvutlqunulrmwtwzyxwmswntmlqnutmtlrwlowprouswlwwvszyx$$
+M:## abcdc efghi jk ef jhfdbkg sppspwmqwvssoqwpvutlqunulrmwtw wmswntmlqnutmtlrwlowprouswlwwvs $$ 
+The number of increasing Duo-preservations of Local Search Scaffold Filling algorithm: 66
+RunTime:9ms
+Output of SLocalSearchScaffoldFilling algorithm(s=2): 
+B: ##zyxabcdcbaefghijkihgefejhfdbkgigkbdfhjcsppspwmqwvssoqwpvutlqunulrmwtwzyxwmswntmlqnutmtlrwlowprouswlwwvszyx$$
+M:## abcdc efghijk ef jhfdbkg sppspwmqwvssoqwpvutlqunulrmwtw wmswntmlqnutmtlrwlowprouswlwwvs $$ 
+The number of increasing Duo-preservations of Local Search Scaffold Filling algorithm: 67
+RunTime:156ms
+Output of SLocalSearchScaffoldFilling algorithm(s=3): 
+B: ##zyxabcdcbaefghijkihgfejhfdbkgeigkbdfhjcsppspwmqwvssoqwpvutlqunulrmwtwzyxwmswntmlqnutmtlrwlowprouswlwwvszyx$$
+M:## abcdc efghijk jhfdbkgei sppspwmqwvssoqwpvutlqunulrmwtw wmswntmlqnutmtlrwlowprouswlwwvs $$ 
+The number of increasing Duo-preservations of Local Search Scaffold Filling algorithm: 68
+RunTime:3103ms
+
+input:
+A: ##xyznltvrmsuqmtqumrupossqvlvlmmsvvxyzmvlonrvtoswrolsonpuomlsoruottwoabcabcdcefghiefghijkjhfdbkgjhfdbkgeixyz$$
+B: ##zyxaccbaegikihgfejfbgigkbdfhjcmvonvosrlsnusrtozyxntrmuvvmsvzyx$$
+X: w u o q q r u m q o o o m t t p l l o o w m t v m u s s l s r l p v l b d f h j h d k e 
+M:## mv on os ls rm msv $$ 
+matchedA:0 1 -1 -1 -1 -1 -1 -1 -1 53 54 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 58 59 60 -1 -1 -1 -1 32 33 -1 34 35 -1 -1 -1 37 38 -1 -1 -1 40 41 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 64 65 
+matchedB:0 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 38 39 41 42 -1 46 47 -1 51 52 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 9 10 -1 -1 -1 31 32 33 -1 -1 -1 108 109 
+The length of A: 110
+The length of B: 66
+The length of X: 44
+The number of increasing Duo-preservations of optimal solution: 70
+Output of BasicInsert algorithm: 
+B: ##zyxabcdcdbaefghikhihgefejkjfbgigkbdfhjcmvlonltvosomlsorwrolsonpusrottwozyxntrmuvvuqmtqumrupossqvlvlmmsvzyx$$
+M:## abc dc db efghi hi ef jkj mvlon ltv os omlsor wrolsonpu ottwo rm uqmtqumrupossqvlvlmmsv $$ 
+The number of increasing Duo-preservations of BasicInsert algorithm: 51
+RunTime:1ms
+Output of GreedyScaffoldFilling algorithm: 
+B: ##zyvxabcdcbaefghikihgefejkjfdbghigkbdfhjcmvlonrvtoswrolsonpuomlsoruottwozyxnltvrmsuqmtqumrupossqvlvlmmsvzyx$$
+M:## vx abc dc efghi ef jkj fdb ghi mvlonrvtoswrolsonpuomlsoruottwo nltvrmsuqmtqumrupossqvlvlmmsv $$ 
+The number of increasing Duo-preservations of GreedyScaffoldFilling algorithm: 66
+RunTime:1ms
+Output of LocalSearchScaffoldFilling algorithm: 
+B: ##zyvxabcdcbaefghijkihgefejhfdbkgigkbdfhjcmvlonrvtoswrolsonpuomlsoruottwozyxnltvrmsuqmtqumrupossqvlvlmmsvzyx$$
+M:## vx abcdc efghi jk ef jhfdbkg mvlonrvtoswrolsonpuomlsoruottwo nltvrmsuqmtqumrupossqvlvlmmsv $$ 
+The number of increasing Duo-preservations of Local Search Scaffold Filling algorithm: 68
+RunTime:7ms
+Output of SLocalSearchScaffoldFilling algorithm(s=2): 
+B: ##zyvxabcdcbaefghijkihgefejhfdbkgigkbdfhjcmvlonrvtoswrolsonpuomlsoruottwozyxnltvrmsuqmtqumrupossqvlvlmmsvzyx$$
+M:## vx abcdc efghijk ef jhfdbkg mvlonrvtoswrolsonpuomlsoruottwo nltvrmsuqmtqumrupossqvlvlmmsv $$ 
+The number of increasing Duo-preservations of Local Search Scaffold Filling algorithm: 69
+RunTime:92ms
+Output of SLocalSearchScaffoldFilling algorithm(s=3): 
+B: ##zyvxabcdcbaefghijkihgfejhfdbkgeigkbdfhjcmvlonrvtoswrolsonpuomlsoruottwozyxnltvrmsuqmtqumrupossqvlvlmmsvzyx$$
+M:## vx abcdc efghijk jhfdbkgei mvlonrvtoswrolsonpuomlsoruottwo nltvrmsuqmtqumrupossqvlvlmmsv $$ 
+The number of increasing Duo-preservations of Local Search Scaffold Filling algorithm: 70
+RunTime:1710ms
+
